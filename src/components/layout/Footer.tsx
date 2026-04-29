@@ -18,7 +18,6 @@ export function Footer() {
       <div className="p-6 border-b md:border-b-0 md:border-r border-charcoal/10 flex flex-col justify-center">
         <p className="opacity-40 uppercase tracking-widest mb-1 font-bold">Contact</p>
         <p>
-          <a href={siteConfig.links.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-terracotta">@terrazza_lounge</a> / 
           <a href={`mailto:${siteConfig.email}`} className="hover:text-terracotta">{siteConfig.email}</a>
         </p>
       </div>

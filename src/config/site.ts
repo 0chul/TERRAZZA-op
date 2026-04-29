@@ -5,11 +5,11 @@ export const siteConfig = {
   email: "contact@terrazza.kr",
   address: "서울 서초구 방배동 807-17",
   links: {
-    instagram: import.meta.env.VITE_INSTAGRAM_URL || "https://instagram.com/terrazza_lounge",
     spacecloud: import.meta.env.VITE_SPACECLOUD_URL || "https://spacecloud.kr",
     hourplace: import.meta.env.VITE_HOURPLACE_URL || "https://hourplace.co.kr",
     naver: "https://map.naver.com",
     kakao: "https://map.kakao.com",
+    google: "https://maps.app.goo.gl/search/서울+서초구+방배동+807-17",
   },
   operatingHours: {
     cafe: "11:00 - 18:00 (Tue-Sun)",

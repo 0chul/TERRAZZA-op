@@ -48,12 +48,15 @@ export function LocationSection() {
               </div>
             </div>
             
-            <div className="mt-12 flex gap-4">
+            <div className="mt-12 flex flex-wrap gap-4">
                <a href={siteConfig.links.naver} target="_blank" rel="noopener noreferrer" className="border border-charcoal/20 px-8 py-3 rounded-xl text-sm font-medium hover:bg-charcoal hover:text-ivory transition-colors">
                  네이버지도 길찾기
                </a>
                <a href={siteConfig.links.kakao} target="_blank" rel="noopener noreferrer" className="border border-charcoal/20 px-8 py-3 rounded-xl text-sm font-medium hover:bg-charcoal hover:text-ivory transition-colors">
                  카카오맵 길찾기
+               </a>
+               <a href={siteConfig.links.google} target="_blank" rel="noopener noreferrer" className="border border-charcoal/20 px-8 py-3 rounded-xl text-sm font-medium hover:bg-charcoal hover:text-ivory transition-colors">
+                 구글지도 길찾기
                </a>
             </div>
           </div>
@@ -66,7 +69,7 @@ export function LocationSection() {
               scrolling="no" 
               marginHeight={0} 
               marginWidth={0} 
-              src="https://www.openstreetmap.org/export/embed.html?bbox=126.98971748352052%2C37.4913809072611%2C126.99615478515626%2C37.495467362031174&amp;layer=mapnik&amp;marker=37.49342415174418%2C126.99293613433838" 
+              src="https://maps.google.com/maps?q=서울%20서초구%20방배동%20807-17&t=&z=16&ie=UTF8&iwloc=&output=embed" 
               className="grayscale hover:grayscale-0 transition-all duration-1000 opacity-80"
               title="Map Location"
             ></iframe>
