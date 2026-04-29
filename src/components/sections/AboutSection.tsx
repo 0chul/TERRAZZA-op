@@ -6,7 +6,7 @@ export function AboutSection() {
           <div className="w-full md:w-1/2 flex items-center justify-center p-8 bg-ivory-dark border border-charcoal/10 rounded-2xl">
             <div className="relative aspect-[4/5] w-full max-w-sm rounded-[200px] overflow-hidden border border-charcoal/10">
               <img 
-                src="https://images.unsplash.com/photo-1596401057633-54a8fea69be6?q=80&w=2670&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2694&auto=format&fit=crop" 
                 alt="Terrazza Lounge Interior" 
                 className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
               />

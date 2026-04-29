@@ -3,6 +3,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { HeroSection } from './components/sections/HeroSection';
 import { AboutSection } from './components/sections/AboutSection';
+import { SpaceGallerySection } from './components/sections/SpaceGallerySection';
 import { MenuSection } from './components/sections/MenuSection';
 import { SpaceRentalSection } from './components/sections/SpaceRentalSection';
 import { GalleryProgramSection } from './components/sections/GalleryProgramSection';
@@ -46,6 +47,7 @@ export default function App() {
         <main>
           <HeroSection />
           <AboutSection />
+          <SpaceGallerySection />
           <MenuSection />
           <SpaceRentalSection />
           <GalleryProgramSection />
